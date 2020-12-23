@@ -1,0 +1,172 @@
+body
+{
+    background-color: #9cfd93;
+}
+
+.header{
+    width :calc(100% - 40px);
+    position: relative;
+    padding: 20px;
+}
+
+.logo
+{
+    width: 40%;
+    height: 30%;
+    background-image: url(../photo/logo.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: inline-block;
+}
+
+.menu
+{
+    position: absolute;
+    right: 20px;
+    top:50px;
+}
+.menuitem{
+    color: #fa5f80;
+    font-size: 36px;
+    font-family: Verdana;
+    display: inline-block;
+    margin-left: 30px;
+}
+
+.a_p
+{
+    margin: 50px;
+    border-radius: 30px;
+    transition: all 0.25s;
+    display: inline-block;
+    width: 375px;
+    height: 700px;
+    border-color: #51b0fd;
+    border-style: solid;
+    border-width: 5px;
+    vertical-align: top;
+}
+
+.icon
+{
+    background-size: contain;
+    background-repeat: no-repeat;
+height: 200px;
+}
+
+.text
+{
+    color: #3A3335;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 20px;
+    font-size: 20px;
+    text-align: center;
+
+}
+
+.block1
+{
+    margin: 30px;
+    width: calc(100% - 100px);
+
+}
+
+.text1
+{
+    color: #3A3335;
+    font-size: 36px;
+}
+
+.line
+{
+    background-color: #3A3335;
+    height: 40px;
+    font-size: 36px;
+    text-align: right;
+    color: white;
+    margin-bottom: 20px;
+}
+.infoblock
+{
+
+    margin-left: 50px;
+    margin-right: 50px;
+    border-radius: 30px;
+    transition: all 0.25s;
+    display: inline-block;
+    width: calc(100% - 100px);
+    border-color: #51b0fd;
+    border-style: solid;
+    border-width: 5px;
+}
+
+.title
+{
+    width: calc(100% - 100px);
+    background-position: center;
+    text-align: center;
+    margin-top: 10px;
+    margin-left: 50px;
+    font-size: 72px;
+}
+
+.p1
+{
+    text-indent: 40px;
+}
+
+.p2
+{
+    text-indent: 70px;
+
+}
+
+ul{
+    list-style-type: square;
+    list-style-position: outside;
+}
+.a_p:hover
+{
+    box-shadow: 0px 0px 50px rgb(0, 4, 255);
+    transform: scale(1.05);
+}
+input[type="checkbox"]  {
+    display: none;
+}
+.burger {
+    display: none;
+}
+.map
+{
+    width: 80%;
+    height: 500px;
+    margin-bottom: 30px;
+    margin-left: 10%;
+}
+
+.images
+{
+    width: 20%;
+}
+
+.video
+{
+    width: 60%;
+    height: 480px;
+}
+
+.instagram
+{
+    width: 60px;
+}
+.inst
+{
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+a{
+    color: #3A3335;
+
+}
